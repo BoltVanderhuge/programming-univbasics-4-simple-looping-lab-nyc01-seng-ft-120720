@@ -32,7 +32,7 @@ counter = 0
 array_plus = []
 while counter < array.length do
   array_plus.push(array[counter].to_s) 
-  count += 1
+  counter += 1
   
 end 
 array_plus
