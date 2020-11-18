@@ -28,7 +28,7 @@ def output_array(array)
 end
 
 def return_string_array(array)
-puts array.tos[counter]
+puts array.to_s[counter]
     counter += 1
   end
 end
