@@ -8,12 +8,12 @@ end
 
 end
 
-# def loop_message_n_times(message,6)
-#   counter = 0 
+def loop_message_n_times(message,integer)
+  counter = 0 
   
-#   while counter <= 6
-#   puts message
-#   counter+= 1 
-# end
+while counter <= integer
+puts message
+counter+= 1 
+end
 
-# end
+end
